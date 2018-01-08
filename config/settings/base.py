@@ -56,6 +56,19 @@ LOCAL_APPS = [
     # custom users app
     'ccd.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+      # Zinnia http://docs.django-blog-zinnia.com/en/stable/getting-started/install.html
+        # Already satisfied
+        # 'django.contrib.auth',
+        # 'django.contrib.admin',
+        # 'django.contrib.sites',
+        # 'django.contrib.sessions',
+        # 'django.contrib.messages',
+        #'django.contrib.staticfiles',
+        # 'django.contrib.contenttypes',
+      'django_comments',
+      'mptt',
+      'tagging',
+      'zinnia',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
@@ -170,6 +183,13 @@ TEMPLATES = [
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
                 # Your stuff: custom template context processors go here
+                # Zinnia http://docs.django-blog-zinnia.com/en/stable/getting-started/install.html
+                    # Already satisfied
+                    #'django.contrib.auth.context_processors.auth',
+                    # 'django.template.context_processors.i18n',
+                    # 'django.template.context_processors.request',
+                    # 'django.contrib.messages.context_processors.messages',
+                'zinnia.context_processors.version',  # Optional
             ],
         },
     },

@@ -48,3 +48,19 @@ redis>=2.10.5
 
 
 # Your custom requirements go here
+# Zinnia http://docs.django-blog-zinnia.com/en/develop/getting-started/install.html
+  # Already satisfied
+    # Python >= 2.7
+    # Django >= 1.11,<2.0
+    # Pillow >= 2.0.0
+    # pytz
+django-mptt >= 0.8.6
+django-tagging >= 0.4.5
+beautifulsoup4 >= 4.1.3
+mots-vides >= 2015.2.6
+regex >= 2016.3.2
+django-contrib-comments >= 1.7
+pyparsing >= 2.0.1
+django-xmlrpc >= 0.1.7
+
+django-blog-zinnia==0.18
