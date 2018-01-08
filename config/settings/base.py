@@ -65,10 +65,10 @@ LOCAL_APPS = [
         # 'django.contrib.messages',
         #'django.contrib.staticfiles',
         # 'django.contrib.contenttypes',
-      'django_comments',
       'mptt',
       'tagging',
       'zinnia',
+      'django_comments',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps

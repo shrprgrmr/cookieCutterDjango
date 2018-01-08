@@ -34,7 +34,8 @@ urlpatterns = [
     url(r'^accounts/', include('allauth.urls')),
 
     # Your stuff: custom urls includes go here
-    url(r'^', include(blog_urls)),
+url(r'^blog/', include('zinnia.urls')),
+url(r'^comments/', include('django_comments.urls')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
